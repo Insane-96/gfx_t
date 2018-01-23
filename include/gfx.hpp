@@ -48,7 +48,7 @@ namespace gfx{
 
         ~Context()
         {
-            delete this;
+            Destroy();
         }
 
         void Destroy()
